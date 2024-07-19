@@ -14,7 +14,7 @@ const CustomerPage = () => {
   const [searchedColumn, setSearchedColumn] = useState("");
   const searchInput = useRef(null);
 
-  
+
   const handleReset = (clearFilters) => {
     clearFilters();
     setSearchText("");
