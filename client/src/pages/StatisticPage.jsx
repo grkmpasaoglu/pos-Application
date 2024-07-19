@@ -1,37 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../components/header/Header.jsx";
 import StatisticCard from "../components/statistics/StatisticCard.jsx";
-// import { Pie } from '@ant-design/plots';
-
-
-// const DemoPie = () => {
-//   const config = {
-//     data: [
-//       { type: 'iPhone', value: 4 },
-//       { type: 'Watch', value: 2 },
-//       { type: 'Aksesuar', value: 7 },
-//       { type: 'iMac', value: 4 },
-//       { type: 'Macbook', value: 5 },
-//       { type: 'iPad', value: 7 },
-//     ],
-//     angleField: 'value',
-//     colorField: 'type',
-//     label: {
-//       text: 'value',
-//       style: {
-//         fontWeight: 'bold',
-//       },
-//     },
-//     legend: {
-//       color: {
-//         title: false,
-//         position: 'right',
-//         rowPadding: 5,
-//       },
-//     },
-//   };
-//   return <Pie {...config} />;
-// };
 
 const StatisticPage = () => {
   const [data, setData] = useState([]);
@@ -110,8 +79,6 @@ const StatisticPage = () => {
         </div>
       </div>
       <div className=" w-1/2 text-center items-center flex mx-auto h-80">
-      {/* <DemoPie /> */}
-
       </div>
     </>
   );
